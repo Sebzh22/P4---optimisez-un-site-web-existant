@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* outline: none!important; */
 }
 
 a:hover {
@@ -332,9 +332,15 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover{
     background: transparent;
+}
+
+.nav > li a:focus{
+    background: transparent;
+    text-decoration: underline;
+    outline: 2px solid #F3976C ;
+    outline-offset: 3px;
 }
 
 .navbar-toggle {
@@ -461,7 +467,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: 3px solid white;
 }
 
 .btn-rd {
