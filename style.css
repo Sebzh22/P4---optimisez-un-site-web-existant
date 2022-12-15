@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -872,7 +872,7 @@ h4 {
     .container {
         width: 100%;
     }
-    .b-parallax {role
+    .b-parallax {
         background-attachment: scroll;
     }
     .page-container,
