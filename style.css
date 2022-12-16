@@ -826,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("./img/fond-ecran-agence-la-panthere.jpg");
+    background-image: url("./img/fond-ecran-agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("./img/fond-ecran-de-presentation.jpg");
+    background-image: url("./img/fond-ecran-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
